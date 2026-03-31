@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>FraymonTour Chile — Turismo y Experiencias</title>
+    <meta name="description" content="FraymonTour Chile: experiencias turísticas únicas en Chile. Tours personalizados, aventura, cultura y naturaleza." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="Css/Pagina.css" rel="stylesheet " type="text/css">
+    <link rel="icon" href="Images/FraymonTourLogo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/FraymonTourLogo.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="container" role="banner">
+        <div class="brand">
+            <div class="logo"><img src="Images/FraymonTourLogo.ico" alt="FraymonTour logo" width="44" height="44"></div>
+            <div>
+                <div style="font-weight:700">FraymonTour</div>
+                <div style="font-size:12px;color:#9bbefb">Chile • Experiencias únicas</div>
+            </div>
+        </div>
+        <nav aria-label="Navegación">
+            <a href="#tours">Tours</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+            <a class="btn" href="#contacto">Reservar</a>
+        </nav>
+    </header>
+
+    <main class="container" role="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div>
+                <h1 id="hero-title">Explora Chile con FraymonTour</h1>
+                <p>Vive aventuras, cultura y paisajes inolvidables. Tours personalizados para parejas, familias y viajeros solo.</p>
+                <div class="search" role="search" aria-label="Buscador de tours">
+                    <input type="text" placeholder="Destino (ej. Atacama, Patagonia)" aria-label="Destino" />
+                    <select aria-label="Duración">
+                        <option>1 día</option>
+                        <option>2-4 días</option>
+                        <option>5+ días</option>
+                    </select>
+                    <button class="btn" aria-label="Buscar">Buscar</button>
+                </div>
+
+                <div class="cards" aria-label="Tours destacados">
+                    <div class="card">
+                        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60')" role="img" aria-label="Desierto de Atacama"></div>
+                        <div>
+                            <div style="font-weight:700">Desierto de Atacama</div>
+                            <div style="font-size:13px;color:#bfe0ff">Tours astronómicos y géiseres.</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60')" role="img" aria-label="Patagonia"></div>
+                        <div>
+                            <div style="font-weight:700">Patagonia</div>
+                            <div style="font-size:13px;color:#bfe0ff">Trekking, glaciares y fauna.</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1549887534-6b4b9f1a9f3f?auto=format&fit=crop&w=800&q=60')" role="img" aria-label="Valparaíso"></div>
+                        <div>
+                            <div style="font-weight:700">Costa & Valparaíso</div>
+                            <div style="font-size:13px;color:#bfe0ff">Cultura, arquitectura y sabores.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside style="padding:14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border-radius:12px">
+                <div style="font-weight:700;margin-bottom:8px">Reserva rápida</div>
+                <div style="font-size:14px;color:#cfe8ff">Elige fecha, número de personas y obtén una cotización.</div>
+                <form style="margin-top:12px;display:grid;gap:8px" aria-label="Formulario rápido">
+                    <input type="text" placeholder="Nombre" />
+                    <input type="email" placeholder="Email" />
+                    <button class="btn" type="button">Cotizar</button>
+                </form>
+                <div style="margin-top:16px;font-size:13px;color:#9fbef8">Tel: <a href="tel:+56912345678">+56 9 1234 5678</a></div>
+            </aside>
+        </section>
+
+        <section id="tours" class="services" aria-labelledby="services-title">
+            <div class="service-card">
+                <h3 id="services-title" style="margin:0 0 8px 0">Tours Privados</h3>
+                <p style="margin:0 0 12px;color:#cfe8ff">Itinerarios hechos a tu medida con guía local y transporte.</p>
+                <ul style="margin:0 0 8px 18px;color:#bfe0ff">
+                    <li>Excursiones de un día</li>
+                    <li>Paquetes multi-día</li>
+                    <li>Tours fotográficos</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3 style="margin:0 0 8px 0">Aventura & Naturaleza</h3>
+                <p style="margin:0 0 12px;color:#cfe8ff">Trekking, kayak, avistamiento y experiencias sostenibles.</p>
+                <div style="font-size:13px;color:#bfe0ff">Guías certificados • Seguro de viajes opcional</div>
+            </div>
+        </section>
+
+        <section id="galeria" aria-label="Galería" style="margin-top:20px">
+            <h3 style="margin:0 0 10px 0">Galería</h3>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60" alt="Paisaje Atacama">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60" alt="Glaciar">
+                <img src="https://images.unsplash.com/photo-1549887534-6b4b9f1a9f3f?auto=format&fit=crop&w=800&q=60" alt="Ciudad costera">
+            </div>
+        </section>
+
+        <section id="contacto" style="margin-top:20px">
+            <h3 style="margin:0 0 10px 0">Contacto</h3>
+            <div style="display:grid;grid-template-columns:1fr 360px;gap:16px">
+                <form class="contact-form" aria-label="Formulario de contacto" onsubmit="event.preventDefault(); alert('Gracias — pronto te contactaremos')">
+                    <input type="text" placeholder="Nombre completo" required />
+                    <input type="email" placeholder="Correo electrónico" required />
+                    <input type="text" placeholder="Asunto" />
+                    <textarea placeholder="Mensaje"></textarea>
+                    <div style="display:flex;gap:8px">
+                        <button class="btn" type="submit">Enviar</button>
+                        <a href="mailto:info@fraymontour.cl" style="align-self:center;color:#9bbefb">info@fraymontour.cl</a>
+                    </div>
+                </form>
+
+                <div>
+                    <div style="font-weight:700">Nuestra oficina</div>
+                    <div style="color:#bfe0ff;font-size:14px;margin-bottom:8px">Santiago, Chile</div>
+                    <div class="map">
+                        <iframe title="Mapa FraymonTour" src="https://www.google.com/maps?q=Santiago,Chile&output=embed" style="width:100%;height:200px;border:0"></iframe>
+                    </div>
+                    <div style="margin-top:10px;font-size:13px;color:#9bbefb">Síguenos: 
+                        <a href="#" aria-label="Instagram">Instagram</a> · 
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container" role="contentinfo">
+            <div>© <strong>FraymonTour</strong> Chile — Calidad y cercanía</div>
+            <div style="font-size:13px;color:#bfe0ff">Diseñado para viajeros curiosos</div>
+        </footer>
+    </main>
+
+    <script>
+        // Minimal interactivity: smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(a=>{
+            a.addEventListener('click', e=>{
+                const id = a.getAttribute('href').slice(1);
+                const el = document.getElementById(id);
+                if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth',block:'start'}); }
+            });
+        });
+    </script>
+</body>
+</html>
