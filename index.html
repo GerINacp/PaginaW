@@ -19,6 +19,10 @@
                 <div style="font-size:12px;color:#9bbefb">Chile • Experiencias únicas</div>
             </div>
         </div>
+        <!-- Navegación principal del sitio.
+             - Contiene enlaces ancla a secciones internas: Tours, Galería y Contacto.
+             - El último enlace tiene la clase `btn` para destacarlo visualmente (Acción principal: Reservar).
+             - `aria-label` permite a tecnologías de asistencia identificar la región como navegación. -->
         <nav aria-label="Navegación">
             <a href="#tours">Tours</a>
             <a href="#galeria">Galería</a>
@@ -28,8 +32,13 @@
     </header>
 
     <main class="container" role="main">
-        <section class="hero" aria-labelledby="hero-title">
-            <div>
+           <section class="hero" aria-labelledby="hero-title">
+              <!-- Columna principal del hero: título, descripción y herramientas de interacción.
+                  - Aquí va el `h1` principal con id para accesibilidad (`aria-labelledby` en la sección).
+                  - El párrafo describe la propuesta de valor.
+                  - El bloque `.search` es un pequeño formulario de búsqueda: campo de texto, selector de duración y botón.
+                  - `role="search"` y `aria-label` ayudan a identificar la funcionalidad para lectores de pantalla. -->
+              <div>
                 <h1 id="hero-title">Explora Chile con FraymonTour</h1>
                 <p>Vive aventuras, cultura y paisajes inolvidables. Tours personalizados para parejas, familias y viajeros solo.</p>
                 <div class="search" role="search" aria-label="Buscador de tours">
